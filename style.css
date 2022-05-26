@@ -1,5 +1,51 @@
+body {
+display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+}
 form {
-    display: grid;
-    width: 300px;
-    gap: 1rem;
-  }
+  display: grid;
+  width: 400px;
+  font-family: sans-serif;
+  gap: 1.5rem;
+  border: 5px solid;
+  border-radius: 30px;
+  padding: 20px;
+  Box-shadow:5px 5px 5px 5px rgba(38, 107, 202, 0.19), 6px 6px 6px rgba(208, 75, 179, 0.23);
+}
+
+h1 {
+  text-align: center;
+ 
+}
+
+textarea {
+  border-style: none;
+  font-size: xx-large;
+}
+
+select {
+  border: none;
+  font-size: larger;
+  opacity: 60%;
+}
+
+input {
+  border: none;
+  font-size: larger;
+}
+
+button {
+  padding: 5px;
+
+  border-radius: 60px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 187),
+    rgb(214, 26, 214),
+    rgb(49, 142, 247)
+  );
+  color: white;
+}
