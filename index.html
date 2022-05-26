@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hoxton-html-user-input</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hello.html">
   </head>
   <body>
     <form>
@@ -37,7 +38,7 @@
         <option>Service 4</option>
       </select>
       <label for="budget">What is your budget?</label>
-      
+
       <select id="budget" name="budget" required>
         <option value="">Select budget</option>
         <option>500$</option>
@@ -53,10 +54,11 @@
         name="message"
         placeholder="Your message here..."
       ></textarea>
-
+<div class="agree-terms">
       <label for="agree">I agree with the T&Cs</label>
-      <input id="agree" type="checkbox" name="agree" required />
-      <button>Submit</button>
+      <input id="agree" type="checkbox" name="agree" required /></div>
+      <input class="buttonn" type=button onClick="location.href='hello.html'"
+      value='Submit'>
     </form>
   </body>
 </html>
