@@ -9,8 +9,8 @@ form {
   width: 400px;
   font-family: sans-serif;
   gap: 1.5rem;
-  border-radius: 30px;
-  padding: 20px;
+  border-radius: 10px;
+  padding: 50px;
   box-shadow: -15px -20px 20px rgba(249, 16, 187, 0.19), 15px -15px 6px rgba(12, 4, 245, 0.19);
 }
 
@@ -25,18 +25,23 @@ h1 {
 textarea {
   resize: none;
   border-style: none;
-  font-size: xx-large;
+  font-size: larger;
+
 }
 
 select {
   border: none;
   font-size: larger;
   opacity: 60%;
+  border-bottom: 1px solid gainsboro ;
+  padding-bottom: 10px;
 }
 
 input {
   border: none;
   font-size: larger;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
 }
 
 button {
