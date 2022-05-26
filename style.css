@@ -12,15 +12,19 @@ form {
   border: 5px solid;
   border-radius: 30px;
   padding: 20px;
-  Box-shadow:5px 5px 5px 5px rgba(38, 107, 202, 0.19), 6px 6px 6px rgba(208, 75, 179, 0.23);
-}
+  }
+
 
 h1 {
   text-align: center;
- 
+
+background: linear-gradient(to right, rgb(74, 111, 221), rgb(237, 1, 237));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
 }
 
 textarea {
+    resize: none;
   border-style: none;
   font-size: xx-large;
 }
@@ -49,3 +53,4 @@ button {
   );
   color: white;
 }
+
