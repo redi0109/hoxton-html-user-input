@@ -39,7 +39,7 @@ input {
   font-size: larger;
 }
 
-.buttonn {
+button {
   padding: 5px;
 
   border-radius: 60px;
